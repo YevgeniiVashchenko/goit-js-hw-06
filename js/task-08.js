@@ -11,11 +11,11 @@ function onFormSbmit(event) {
     mail,
     password,
   };
-  console.log(formData);
 
   if (mail === '' || password === '') {
     alert('All fields must be complited!');
   } else {
     formRef.reset();
+    console.log(formData);
   }
 }
